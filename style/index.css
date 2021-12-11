@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor .menu{
+    background-color: rgba(165, 3, 3, 0.842);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    color: snow;
+    width: 100%;
+}
+.contenedor .logo{
+    font-size: 22px;
+}
+
+.contenedor .disEstilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor .disEstilo img{
+    width: 35%;
+    padding: 20px;
+    border-radius: 75px;
+    background-color: rgb(170, 148, 160);
+    
+}
+.disEstilo{
+    background-color: rgb(170, 148, 160);
+    padding: 15px;
+    font-size: 37px;
+    color: firebrick;
+}
+
+.contenedor .elige{
+    background-color: rgba(219, 3, 3, 0.842);
+    /*height: 350px;*/
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.elige img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(165, 3, 3, 0.842);
+    border-radius: 20px;
+    width: 100%;
+    height: 40vh;
+}
+.elige p{
+    padding: 15px;
+}
+.contenedor .selecciona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(163, 156, 122);
+    /*height:  350px;*/
+    width: 50%;
+    
+}
+.selecciona img{
+    width: 47%;
+    padding: 15px;
+    border-radius: 25px;
+    height: 35vh;
+    
+}
+.selecciona{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.selecciona p{
+    padding: 20px;
+}
+.contenedor .estampa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(129, 175, 184);
+    /*height: 400px;*/
+    width: 100%;
+}
+.estampa img{
+    width: 30%;
+    height: 40vh;
+    border-radius: 30px;
+}
+
+.estampa{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.estampa p{
+    padding: 20px;
+
+}    
+.contenedor .contacto{
+    /*height: 115px;*/
+    width: 100%;
+    background-color: tomato;
+    font-size: 16px;
+    color: white;
+}
+
+#carrucel{
+    display: flex;
+    flex-direction: row;
+}
+#contImg2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contacto{
+    margin-top: 20px tomato;
+    padding: 15px;
+    
+    
+}
