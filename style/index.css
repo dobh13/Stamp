@@ -9,13 +9,17 @@
     flex-wrap: wrap;
 }
 
-.contenedor .menu{
+ .menu{
     background-color: rgba(165, 3, 3, 0.842);
     display: flex;
     justify-content: space-evenly;
     align-content: flex-end;
     color: snow;
     width: 100%;
+}
+.menu a{
+    color: snow;
+    text-decoration: none;
 }
 .contenedor .logo{
     font-size: 22px;
